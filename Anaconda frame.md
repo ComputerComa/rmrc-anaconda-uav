@@ -1,4 +1,4 @@
-## Core Avionics and Flight Hardware 
+## Core Avionics and Flight Hardware
 
 | Item              | Link                                                                                                                                                                                                                                                                                             | Price         | Notes                                                                       |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- | --------------------------------------------------------------------------- |
@@ -16,11 +16,12 @@
 | Airspeed Sensor   | [ReadyMadeRC](https://www.readymaderc.com/products/details/rmrc-digital-air-speed-sensor-pixhawk-ii-2?srsltid=AfmBOorBolX9IDpmx4edhhoB2W1hDJGbArEzX1hCmEosSlXULjAD-1d5)                                                                                                                          | $60           |                                                                             |
 | BEC               | [ReadyMadeRC](https://www.readymaderc.com/products/details/86216-hobbywing-ubec-10a-hv)                                                                                                                                                                                                          | $40 X 2 ($80) | Qty 2; one dedicated to servos, one dedicated to lighting; both set to 6.0V |
 | Jetson BEC        | [Matek BEC12S-PRO](https://www.progressiverc.com/products/matek-bec12s-pro)                                                                                                                                                                                                                      | $20           |                                                                             |
+
 ### Custom Designed PDB notes
+
 My build uses a custom PDB. if you decide to use it please note. V1 has the wrong gender of XT60 outputs compared to the standard. Please ensure you use xt60 covers on any unused XT60 connectors to prevent accidental sparking. The PDB was designed in easyEDA and can be found here
 
 ## Payload and Support Hardware
-
 
 | Item                 | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Price | Notes                                                                                                                       |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -28,12 +29,12 @@ My build uses a custom PDB. if you decide to use it please note. V1 has the wron
 | WFB-NG Radio Pair    | [Walmart](https://www.walmart.com/ip/Alfa-Long-Range-Dual-Band-AC1200-Wireless-USB-3-0-Wi-Fi-Adapter-W-2x-5dBi-External-Antennas/469234688?utm_medium=feed&utm_source=chatgpt.com)                                                                                                                                                                                                                                                                                                                                                                                              | $160  | Need 2                                                                                                                      |
 | Skydroid C12         | [RCDroneWorld](https://www.worldronemarket.com/product/skydroid-c12/)<br><br>[Ebay](https://www.ebay.com/itm/358891018670?_skw=SKYDROID+C12&itmmeta=01KZWA3D375DNSF6RRQZCR90G1&hash=item538f9259ae:g:adkAAeSwUFpqdCcI&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xByEwYfGkAZpSZho01x9rs%2BLUSmUr4AwN%2BdW0sjsYyDaiYq5TU8cYbRkzGFpFqBFqmPOnLbGl3hXNbb0fCnj%2F5n5YaN8oBu%2B3NQ1KzihnuZ7vWKtUQgXnUsYJsK6uw%2F7KdUKn09ZoI1FFY9B7R8o31BqtnVHZRnyj7d6%2FUF%2Fh%2FiLY9OnMBzgTLESaeGqpbEAMX4JJXpM2RFBkOhuHjDCZrh8PmiXpaOx1nkI1if6RvcLsPriJpZRK71slJf%2B2KTSyo%3D%7Ctkp%3ABk9SR9zRjYr_Zw) | ~$500 | Whatever supplier is available at the time.. If not available best replacement is the ZIYI ZT6 at a significant price hike. |
 | \|C12 Interface PCB  | Custom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | TBD   | Ethernet breakout + protected power injection + remote power-cycle control                                                  |
-### Gimbal Integration Skydroid C12 control is provided by: [Skydroid_C12_MAV_bridge](https://github.com/ComputerComa/Skydroid_C12_MAV_bridge) The bridge runs on the Jetson and translates MAVLink gimbal/camera commands to the C12 IP control protocol. (work in progress!)
 
+### Gimbal Integration Skydroid C12 control is provided by: [Skydroid_C12_MAV_bridge](https://github.com/ComputerComa/Skydroid_C12_MAV_bridge) The bridge runs on the Jetson and translates MAVLink gimbal/camera commands to the C12 IP control protocol. (work in progress!)
 
 ## Optional Upgrades / Enhancements
 
-### RTK 
+### RTK
 
 | Item             | Link                                                                                                                                                               | Price | Notes |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----- | ----- |
@@ -42,16 +43,29 @@ My build uses a custom PDB. if you decide to use it please note. V1 has the wron
 | Tripod Adapter   | [Sparkfun](https://www.sparkfun.com/antenna-thread-adapter-1-4in-to-5-8in.html)                                                                                    | $10   |       |
 | Tripod Stand     | [Best Buy](https://www.bestbuy.com/product/bower-heavy-duty-series-72-photo-video-tripod-black/JXXYJZQ7FW/sku/11455980?ref=212&loc=marketplace)                    | $45   |       |
 |                  |                                                                                                                                                                    |       |       |
+
 Estimated Total ~270
 
 ### Precision Landing
+
 | Item        | Link                                                           | Price | Notes                                                         |
 | ----------- | -------------------------------------------------------------- | ----- | ------------------------------------------------------------- |
 | ARK DIST MR | [arkElectronics](https://arkelectron.com/product/ark-dist-mr/) | $280  | DroneCAN; high-priority upgrade for autoland / flare accuracy |
 
-
 ### ADSB
+
 | Item                | Link                                                                                                  | Price   | Notes         |
 | ------------------- | ----------------------------------------------------------------------------------------------------- | ------- | ------------- |
 | ADSBee 1090U Bundle | [Pants For Birds](https://pantsforbirds.com/product/adsbee-1090u-and-1090-978mhz-pcb-antenna-bundle/) | $152.00 | High priority |
-Possible Plug and play support, might make can adapter board. 
+
+Possible Plug and play support, might make can adapter board.
+
+### Cellular / Tertiary Telemetry Link
+
+| Item                                 | Link                                    |               Price | Notes                                                                                                                                                                                                          |
+| ------------------------------------ | --------------------------------------- | ------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EXVIST EG25-G LTE USB Modem          | https://www.newegg.com/p/0E6-01JH-00025 |               ~$140 | Quectel EG25-G LTE Cat 4 modem, USB interface, Micro-SIM slot, MAIN/AUX/GNSS IPEX connectors, global LTE bands including B2/B4/B5/B12/B13/B25/B26/B28. Linux compatible. Preferred LTE modem route for Jetson. |
+| Hologram Hyper SIM - Triple Cut (2X) | https://store.hologram.io/              |               ~$16? | Physical 2FF/3FF/4FF Hyper SIM. Supports LTE/5G/LTE-M/NB-IoT. Hologram currently offers a free pilot SIM using code `FREEPILOTSIM`. Data plan billed separately.                                               |
+| LTE Main Antenna                     | Included / TBD                          | Included or ~$10-20 | Use external LTE antenna connected to MAIN IPEX port. Final airborne antenna should be selected for broad North American LTE coverage and appropriate mounting.                                                |
+| LTE Diversity Antenna                | TBD                                     |             ~$10-20 | Recommended for diversity/MIMO performance. Connect to AUX IPEX port. Mount with reasonable separation from MAIN antenna and other RF systems.                                                                 |
+| USB Cable - Jetson to LTE Modem      | TBD                                     |              ~$5-10 | Short, lightweight data-capable USB cable. Prefer locking/strain-relieved installation rather than relying on a loose consumer USB connection.                                                                 |
