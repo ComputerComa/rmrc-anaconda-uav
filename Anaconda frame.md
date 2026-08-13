@@ -16,7 +16,8 @@
 | Airspeed Sensor   | [ReadyMadeRC](https://www.readymaderc.com/products/details/rmrc-digital-air-speed-sensor-pixhawk-ii-2?srsltid=AfmBOorBolX9IDpmx4edhhoB2W1hDJGbArEzX1hCmEosSlXULjAD-1d5)                                                                                                                          | $60           |                                                                             |
 | BEC               | [ReadyMadeRC](https://www.readymaderc.com/products/details/86216-hobbywing-ubec-10a-hv)                                                                                                                                                                                                          | $40 X 2 ($80) | Qty 2; one dedicated to servos, one dedicated to lighting; both set to 6.0V |
 | Jetson BEC        | [Matek BEC12S-PRO](https://www.progressiverc.com/products/matek-bec12s-pro)                                                                                                                                                                                                                      | $20           |                                                                             |
-
+### Custom Designed PDB notes
+My build uses a custom PDB. if you decide to use it please note. V1 has the wrong gender of XT60 outputs compared to the standard. Please ensure you use xt60 covers on any unused XT60 connectors to prevent accidental sparking. The PDB was designed in easyEDA and can be found here
 
 ## Payload and Support Hardware
 
@@ -40,9 +41,17 @@
 | SMA to TNC Cable | [Sparkfun](https://www.sparkfun.com/reinforced-interface-cable-sma-male-to-tnc-male-10m.html)                                                                      | $45   |       |
 | Tripod Adapter   | [Sparkfun](https://www.sparkfun.com/antenna-thread-adapter-1-4in-to-5-8in.html)                                                                                    | $10   |       |
 | Tripod Stand     | [Best Buy](https://www.bestbuy.com/product/bower-heavy-duty-series-72-photo-video-tripod-black/JXXYJZQ7FW/sku/11455980?ref=212&loc=marketplace)                    | $45   |       |
+|                  |                                                                                                                                                                    |       |       |
 Estimated Total ~270
 
 ### Precision Landing
 | Item        | Link                                                           | Price | Notes                                                         |
 | ----------- | -------------------------------------------------------------- | ----- | ------------------------------------------------------------- |
 | ARK DIST MR | [arkElectronics](https://arkelectron.com/product/ark-dist-mr/) | $280  | DroneCAN; high-priority upgrade for autoland / flare accuracy |
+
+
+### ADSB
+| Item                | Link                                                                                                  | Price   | Notes         |
+| ------------------- | ----------------------------------------------------------------------------------------------------- | ------- | ------------- |
+| ADSBee 1090U Bundle | [Pants For Birds](https://pantsforbirds.com/product/adsbee-1090u-and-1090-978mhz-pcb-antenna-bundle/) | $152.00 | High priority |
+Possible Plug and play support, might make can adapter board. 
