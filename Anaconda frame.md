@@ -17,6 +17,8 @@
 | BEC               | [ReadyMadeRC](https://www.readymaderc.com/products/details/86216-hobbywing-ubec-10a-hv)                                                                                                                                                                                                          | $40 X 2 ($80) | Qty 2; one dedicated to servos, one dedicated to lighting; both set to 6.0V |
 | Jetson BEC        | [Matek BEC12S-PRO](https://www.progressiverc.com/products/matek-bec12s-pro)                                                                                                                                                                                                                      | $20           |                                                                             |
 
+Estimated total $2250
+
 ### Custom Designed PDB notes
 
 My build uses a custom PDB. if you decide to use it please note. V1 has the wrong gender of XT60 outputs compared to the standard. Please ensure you use xt60 covers on any unused XT60 connectors to prevent accidental sparking. The PDB was designed in easyEDA and can be found here
@@ -31,6 +33,8 @@ My build uses a custom PDB. if you decide to use it please note. V1 has the wron
 | \|C12 Interface PCB  | Custom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | TBD   | Ethernet breakout + protected power injection + remote power-cycle control                                                  |
 
 ### Gimbal Integration Skydroid C12 control is provided by: [Skydroid_C12_MAV_bridge](https://github.com/ComputerComa/Skydroid_C12_MAV_bridge) The bridge runs on the Jetson and translates MAVLink gimbal/camera commands to the C12 IP control protocol. (work in progress!)
+
+Estimated Total $1025
 
 ## Optional Upgrades / Enhancements
 
@@ -69,3 +73,7 @@ Possible Plug and play support, might make can adapter board.
 | LTE Main Antenna                     | Included / TBD                          | Included or ~$10-20 | Use external LTE antenna connected to MAIN IPEX port. Final airborne antenna should be selected for broad North American LTE coverage and appropriate mounting.                                                |
 | LTE Diversity Antenna                | TBD                                     |             ~$10-20 | Recommended for diversity/MIMO performance. Connect to AUX IPEX port. Mount with reasonable separation from MAIN antenna and other RF systems.                                                                 |
 | USB Cable - Jetson to LTE Modem      | TBD                                     |              ~$5-10 | Short, lightweight data-capable USB cable. Prefer locking/strain-relieved installation rather than relying on a loose consumer USB connection.                                                                 |
+Estimated Total $206
+
+
+Estimated Full Build total $4200
